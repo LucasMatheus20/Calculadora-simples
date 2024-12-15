@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.calculadora{
+    background-color: #f7f7f7;
+    width: 200px;
+    height: 350px;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    box-shadow: 1px 0px 6px lightseagreen;
+    border-radius: 5px;
+    
+
+}
+h1{
+    font-size: 1.6em;
+    margin-top: 5px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 100px);
+   background-color: #211b15a7;
+}
+#linha{
+    gap: 6px;
+    display: flex;
+    margin: 5px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+#tela{
+    background-color: white;
+    width: 175px;
+    height: 50px;
+    box-shadow: 0px 0px 3px lightseagreen;
+    text-align: right;
+    padding: 7px;
+    margin-top: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+button:hover{
+   background-color: #211b15a7;
+   color: white;
+}
+.cor{
+    background-color: #8864FA;
+}
+.width, #width{
+    width: 86px;
+}
