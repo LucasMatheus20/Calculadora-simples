@@ -35,11 +35,14 @@ document.addEventListener("keydown", (e) => {
     ".",
   ]
   ;
-  if (teclas.includes(e.key)) {
+  if (teclas.includes(e.key)) { 
+    e.preventDefault()
     inserir(e.key);
   }else if(e.key == 'Enter'){
+    e.preventDefault()
         calcular()
   }else if(e.key == 'Backspace'){
+    e.preventDefault()
         apagar()
   }else{
     return true
